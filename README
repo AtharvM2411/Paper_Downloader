@@ -1,0 +1,38 @@
+# Paper Downloader, Literature Review Helper
+
+A utility tool for downloading research papers efficiently.
+
+## Features
+
+- Download papers from multiple sources
+- Batch download support
+- Automatic metadata extraction
+- Organized file storage Year wise
+
+
+## Usage
+
+### Required Inputs
+
+- **Paper URL or DOI**: Direct link to the paper or its Digital Object Identifier
+- **Output Directory**: Destination folder for downloaded files
+- **Keyword.txt Global Path** : Keyword File
+- **Start and End Year for Paper Search**
+
+### Supported APIs
+
+- **arXiv API**: Access to preprints and research papers
+- **CrossRef API**: Metadata retrieval and DOI resolution
+- **Semantic Scholar API**: Paper information and citations, #Still has problems with direct connections 
+
+### Example
+
+```bash
+python main.py 
+>>> keyword file : "keywords.txt"
+>>> Download Path : "Destination Path"
+>>> start Year : "2022"
+>>> End Year : "2026"
+
+Downloaded : "Paper"
+```
